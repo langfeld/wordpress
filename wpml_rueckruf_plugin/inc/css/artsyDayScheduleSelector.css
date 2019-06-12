@@ -1,0 +1,72 @@
+#day-schedule {
+    overflow: scroll;
+    height: auto; 
+}
+.schedule-table {
+    border-collapse: inherit;
+    border-spacing: 14px 0;
+}
+.schedule-header th {
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding: 3px;
+    background: #FFF;
+    -webkit-transition: background 1.5s;
+}
+.schedule-header-bg {
+    background-color: #f18800 !important;
+    -webkit-transition: background 0.5s !important;
+}
+.schedule-rows td {
+    width: 50px;
+    height: 30px;
+    margin: 3px;
+    padding: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+.schedule-rows td:first-child {
+    background-color: transparent;
+    text-align: right;
+    position: relative;
+}
+.schedule-rows td:not(:first-child) {
+    border: 1px solid #fff;
+}
+.schedule-rows td[data-selected] {
+    background-color: #ff6666;
+}
+.schedule-rows td[data-selecting='selecting'] {
+    background-color: #920d18
+}
+.schedule-rows td[data-selecting='deselecting'] { 
+    background-color: #c9fde3; 
+}
+.schedule-rows td[data-disabled] {
+    opacity: 0.15;
+    border: 1px dashed #f9f9f9;
+}
+.schedule-rows .weekend {
+    background-color: #ffe0e0 !important;
+}
+.schedule-rows tr td:first-child {
+    background: #FFF;
+    -webkit-transition: background 1.5s;
+    cursor: default;
+    
+    /* Fixierung */
+    position: absolute;
+    width: 50px;
+    left: 20px;
+    top: auto;
+    margin-top: 0px;
+}
+.schedule-rows tr:hover td:first-child {
+    background-color: #f18800;
+    -webkit-transition: background 0.5s;
+}
+td.time-slot.masquerade {
+    background-color: #ffd6a1;
+}

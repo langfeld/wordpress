@@ -1,0 +1,28 @@
+/* 
+    Created on : 07.05.2018, 11:58:55
+    Author     : mheizmann
+*/
+
+.vjs-quality-selector {
+    font-family: VideoJS;
+}
+
+.vjs-quality-selector .vjs-icon-placeholder:before {
+    content: '\f110';
+    font-size: 1.8em;
+    line-height: 1.67;
+}
+
+.vjs-quality-selector ul.vjs-menu-content {
+    width: 4em !important;
+}
+
+.vjs-quality-selector .vjs-menu {
+    left: 0;
+}
+
+.vjs-quality-selector .vjs-menu li {
+    text-transform: none;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}

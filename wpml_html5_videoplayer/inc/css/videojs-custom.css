@@ -1,0 +1,73 @@
+/* 
+    Created on : 07.05.2018, 10:59:40
+    Author     : mheizmann
+*/
+
+/* HTML5 Video Player WPML Style */
+
+.video-js {
+  font-size: 14px !important;
+  color: white !important;
+}
+
+.vjs-default-skin .vjs-big-play-button {
+  font-size: 2.5em !important;
+  line-height: 1.5em !important;
+  height: 1.5em !important;
+  width: 2em !important;
+  border: 0.06666em solid white !important;
+  border-radius: 0.2em !important;
+  /* Align center */
+  left: 50% !important;
+  top: 50% !important;
+  margin-left: -1em !important;
+  margin-top: -0.75em !important;
+}
+
+.video-js .vjs-control-bar,
+.video-js .vjs-menu-button .vjs-menu-content {
+  /* IE8 - has no alpha support */
+  background-color: #f18800;
+  background-color: #ff990042 !important;
+  background-image: linear-gradient(to top, rgba(241, 136, 0, 0.87) 0%, rgba(255, 255, 255, 0) 50%) !important;
+}
+
+.video-js .vjs-big-play-button {
+  /* IE8 - has no alpha support */
+  background-color: #f18800b8;
+}
+
+/*.video-js button {
+  color: #000;
+}*/
+
+.video-js button:hover {
+  color: #ff9900;
+  text-shadow: 0 0 0.8em #f5f5f5;
+}
+
+.video-js .vjs-slider {
+  background-color: white !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.video-js .vjs-volume-level,
+.video-js .vjs-play-progress,
+.video-js .vjs-slider-bar {
+  background: #f18800 !important;
+}
+
+.video-js .vjs-load-progress {
+      background: #f18800 !important;
+      background: #f1880045 !important;
+}
+
+.video-js .vjs-load-progress div {
+    background: #fff704 !important;
+    background: rgba(255, 247, 4, 0.21) !important;
+}
+
+.video-js:hover .vjs-big-play-button {
+    background-color: #e38c09 !important;
+    border-color: #ffa51e !important;
+}
